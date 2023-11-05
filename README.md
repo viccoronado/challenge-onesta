@@ -9,11 +9,11 @@ Construir una pequeña API en TypeScript, usando SQLite que permita agregar:
 
 ⚡️ También debe incluir una ruta que al enviarle un CSV lo lea y cargue su data dentro de la DDBB.
 
-El mail debe ser único dentro de los agricultores.
-El mail debe ser único dentro de los clientes.
-La combinación Nombre Ubicación de los campos debe ser única.
-El nombre de la fruta debe ser única.
-La combinación fruta variedad debe ser única.
+- El mail debe ser único dentro de los agricultores.
+- El mail debe ser único dentro de los clientes.
+- La combinación Nombre Ubicación de los campos debe ser única.
+- El nombre de la fruta debe ser única.
+- La combinación fruta variedad debe ser única.
 
 Se valorara:
 
