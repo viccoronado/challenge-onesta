@@ -1,0 +1,10 @@
+CREATE TABLE field (
+    id INTEGER PRIMARY KEY,
+    name TEXT NOT NULL,
+    location TEXT NOT NULL,
+    farmerId INTEGER,
+    cropId INTEGER,
+    UNIQUE (name, location),
+    FOREIGN KEY (farmerId) REFERENCES farmers(id),
+    FOREIGN KEY (cropId) REFERENCES crops(id)
+);
