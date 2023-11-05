@@ -46,3 +46,7 @@ Se valorara:
 - Validaciones de schema
 - Separación de concerns
 - Manejo de errores
+
+## Cómo y porqué tomé las decisiones que tomé ⚒️
+
+Para construir esta API decidí usar un framework como NestJS que permite moduralizar y escalar la aplicación, al mismo tiempo que disponemos de inyección de dependencias, decoradores y metadata. Adicionalmente implementé Clean Architecture (Domain-Drive Design específicamente) con la idea de que esta aplicación pueda escalar y volverse aún más compleja y centrada en el dominio. Ambas herramientas combinadas nos ayudan a modelar una aplicación sólida y robusta enfocada en el dominio que, según entiendo, es lo que esta API necesitaría en un futuro.-

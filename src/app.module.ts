@@ -18,7 +18,9 @@ import { ClientsController } from './infrastructure/adapters/controllers/client/
 import { CsvController } from './infrastructure/adapters/controllers/csv-files/controller-cvs';
 
 @Module({
-  imports: TypeOrmModule.forFeature([Fruit, Variety, Crop, Field, Farmer]),
+  imports: [
+    TypeOrmModule.forFeature([Fruit, Variety, Crop, Field, Farmer])
+  ],
   controllers: [
     FruitsController,
     CropsController,
